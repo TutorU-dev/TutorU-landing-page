@@ -52,7 +52,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2 {
@@ -75,7 +75,8 @@ section h2 {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
   color: #91C8EC;
 }
 
@@ -117,7 +118,8 @@ section h2 {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: fade(white, 70%);
+    color: #ffffff;
+    /* color: fade(white, 70%); */
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: black;
@@ -205,7 +207,7 @@ header.masthead .badges {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  /* padding: 150px 0; */
 }
 
 section.download h2 {
@@ -333,7 +335,7 @@ section.contact h2 {
 }
 
 section.contact h2 i {
-  color: #dd4b39;
+  color: #91C8EC;
 }
 
 section.contact ul.list-social {
