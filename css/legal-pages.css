@@ -1,0 +1,58 @@
+#legalNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: black;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#legalNav .navbar-brand {
+  color: white;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#legalNav .navbar-brand:focus,
+#legalNav .navbar-brand:hover {
+  color: #91C8EC;
+}
+
+#legalNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: white;
+}
+
+#legalNav .navbar-nav > li > a {
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#legalNav .navbar-nav > li > a.active, #legalNav .navbar-nav > li > a.selected  {
+  color: #91C8EC !important;
+  background-color: transparent;
+}
+
+#legalNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+#legalNav .navbar-nav > li > a,
+#legalNav .navbar-nav > li > a:focus {
+  color: white;
+}
+
+#legalNav .navbar-nav > li > a:hover {
+  color: #91C8EC;
+}
+
+
+
+.legal-content {
+  color: black;
+  padding: 50px;
+}
