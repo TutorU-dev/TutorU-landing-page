@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #91C8EC;
+  color: blue;
   transition: all .35s;
 }
 
@@ -180,6 +180,10 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
+header.masthead .badges {
+  margin-bottom: 25px;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -236,7 +240,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section.features .section-heading h2 {
@@ -277,7 +281,7 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #66b2e5, #66b2e5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -396,8 +400,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #d9d9d9;
+  background: linear-gradient(#d9d9d9, #d9d9d9);
 }
 
 .text-primary {
